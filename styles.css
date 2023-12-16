@@ -1,0 +1,154 @@
+/*HEADER*/
+
+.cover {
+    display: flex;
+    justify-content: center;
+    background-image: url(./images/covermain.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+    height: 100vh;
+ }
+ 
+ .overlay {
+    position: absolute;
+    inset: 0;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: -1;
+ }
+ 
+ .cover__title {
+    padding-top: 30vh;
+    text-align: center;
+    color: #fff;
+    font-size: 5em;
+    font-family: Lit, sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    z-index: 1;
+ }
+
+/*INFO*/
+
+ .info {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+ }
+  
+ .info__card-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+ }
+ 
+ .info__card-list-item {
+    flex-basis: 400px;
+    flex-grow: 1;
+    max-height: 50vh;
+ }
+
+ .card {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: flex-start;
+    gap: 10px;
+    padding: 50px 40px;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 1;
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+    max-height: 50vh;
+ }
+ 
+ .card__title {
+    color: #FFF;
+    font-size: 30px;
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-underline-offset: 0.2rem;
+ }
+ 
+ .card__text {
+    position: relative;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    color: black;
+ }
+ 
+ .info__look-more-link {
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: underline 1px;
+    text-underline-offset: 0.3rem;
+ }
+
+.image {
+   align-self: center;
+   max-height: 50vh;
+   max-width: 50vh;
+   
+}
+
+/*DETAILS*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /*
+
+.info {
+    display: flex;
+    
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+
+.info_card {
+    flex-grow: 1;
+    max-width: 300px;
+    min-width: 400px;
+
+ }
+
+
+
+.info_title {
+    font-family: Inter;
+    font-weight:bold;
+    font-size: 2em;
+}
+
+
+.info_text {
+
+}
+
+
+.info_

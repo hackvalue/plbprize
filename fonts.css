@@ -1,17 +1,22 @@
 @font-face {
-    font-family: Intel;
-    src:
-      url(./Raleway-Regular.woff2) format('woff2'),
-      url(./Raleway-Regular.woff) format('woff');
+  font-family: Inter;
+  src: url(./fonts/Inter-Light.ttf) format('truetype');
+  font-weight: bold;
+  font-display: swap;
+  }
+
+@font-face {
+    font-family: Inter;
+    src: url(./fonts/Inter-Thin.ttf) format('truetype');
     font-weight: normal;
     font-display: swap;
-  }
-  
-  @font-face {
-    font-family: Intel;
-    src:
-      url(./Raleway-Bold.woff2) format('woff2'),
-      url(./Raleway-Bold.woff) format('woff');
-    font-weight: bold;
-    font-display: swap;
-  }
+    }
+
+
+@font-face {
+  font-family: Lit;
+  src: url(./fonts/literaturnaya-plain-001-001.ttf) format('truetype');
+  font-weight: normal;
+  font-display: swap;
+}
+
