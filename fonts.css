@@ -1,14 +1,14 @@
 @font-face {
   font-family: Inter;
   src: url(./fonts/Inter-Light.ttf) format('truetype');
-  font-weight: bold;
+  font-weight: normal;
   font-display: swap;
   }
 
 @font-face {
     font-family: Inter;
-    src: url(./fonts/Inter-Thin.ttf) format('truetype');
-    font-weight: normal;
+    src: url(./fonts/Inter-Medium.ttf) format('truetype');
+    font-weight: bold;
     font-display: swap;
     }
 
