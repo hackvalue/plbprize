@@ -1,18 +1,15 @@
 /*HEADER*/
 
 .cover {
-    display: flex;
-    justify-content: center;
-    background-image: url(./images/covermain.png);
+    
+    background-image: url(./images/coverlight.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    background-attachment: fixed;
     position: relative;
     z-index: 1;
-    height: 100vh;
-    min-width: 100%;
-
-    
+    height: 100vh;    
  }
  
  .overlay {
@@ -28,31 +25,32 @@
     padding-top: 30vh;
     text-align: center;
     color: #fff;
-    font-size: 3em;
+    font-size: 5vw;
     font-family: Lit, sans-serif;
-    font-weight: 700;
+    font-weight: bold;
     text-transform: uppercase;
     z-index: 1;
+    
  }
 
 /*INFO*/
 
  .info {
-    padding: 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding-bottom: 4vh;
  }
   
  .info__card-list {
-    display: flex;
-    flex-wrap: wrap;
-    list-style-type: none;
+   display: flex;
+   flex-wrap: wrap;
+   list-style-type: none;
  }
  
  .info__card-list-item {
-    flex-basis: 280px;
-    flex-grow: 1;    
+    flex-basis: 300px;
+    flex-grow: 1;
  }
 
  .card {
@@ -61,18 +59,17 @@
     align-items: start;
     justify-content: flex-start;
     gap: 30px;
-    padding: 50px 40px;
+    padding: 4vw;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     font-family: Inter, sans-serif;
     font-weight: 700;
-    height: 100%;
  }
  
  .card__title {
     color: #FFF;
-    font-size: 30px;
+    font-size: 3vh;
     color: black;
     font-style: bold;
     text-transform: uppercase;
@@ -82,7 +79,7 @@
  
  .card__text {
     position: relative;
-    font-size: 18px;
+    font-size: 2.5vh;
     font-style: normal;
     font-weight: 400;
     color: black;
@@ -90,63 +87,78 @@
  
  .info__look-more-link {
     padding-top: 20px;
-    font-size: 20px;
+    font-size: 2.5vh;
     font-weight: 400;
     text-decoration: underline 1px;
     text-underline-offset: 0.3rem;
  }
 
 .image {
-   
-   
-   max-height: 50vh;
    max-width: 50vh;
-   
+   max-height: 50vh;
 }
 
 /*DETAILS*/
 
+.details {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: flex-start;
+   gap: 5vh;
+   padding: 5vh 4vh 10vh;
+}
 
+.details_column {
+   
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
 
+.details_logo {
+   position: relative;
+   width: 50vh;
+   height: 50vh;
+   border-radius: 50%;
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   z-index: 1;
+}
 
+.image_about {
+   background-image: url(./images/coverdark.png); 
+}
 
+.image_win {
+   background-image: url(./images/coverdark.png);
+}
 
-
-
-
-
-
-
- /*
-
-.info {
-    display: flex;
-    
-    justify-content: space-around;
-    flex-wrap: wrap;
+.image_lb {
+   background-image: url(./images/coverdark.png);
 }
 
 
-
-.info_card {
-    flex-grow: 1;
-    max-width: 300px;
-    min-width: 400px;
-
- }
-
-
-
-.info_title {
-    font-family: Inter;
-    font-weight:bold;
-    font-size: 2em;
+.details_title {
+   align-self: center;
+   position: absolute;
+   font-family: Lit, serif;
+   font-weight: bold;
+   font-size: 4vh;
+   color: #fff;
+   text-transform: uppercase;
+   text-align: center;
+   z-index: 1; 
 }
 
-
-.info_text {
-
+.details_text {
+   padding: 0 4vw;
+   flex-basis: 500px;
+   flex-grow: 1;
+   font-family: Inter, sans-serif;
+   font-weight: normal;
+   font-size: 2.5vh;
+   line-height: 1.2;
 }
-
-
-.info_
