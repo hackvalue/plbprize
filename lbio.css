@@ -1,0 +1,31 @@
+.cover {
+    background-image: url(./images/shar4.JPG);
+    height: 100vh;
+ }
+ 
+ .overlay {
+    background-color: rgba(0, 0, 0, 0.2);
+ }
+ 
+ .cover__title {
+    padding-top: 30vh;
+    text-align: center;
+    color: #fff;
+    font-size: 5vw;
+    font-family: Lit, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    z-index: 1;
+    
+ }
+
+ .cover_2 {
+   
+    width: 100vw;
+ }
+
+
+ .info__card-list {
+    gap: 0;
+
+ }
