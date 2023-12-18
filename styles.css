@@ -84,6 +84,7 @@
     font-style: normal;
     font-weight: 400;
     color: black;
+    
  }
  
  .info__look-more-link {
@@ -91,9 +92,11 @@
     font-weight: 400;
     text-decoration: underline 1px;
     text-underline-offset: 0.3rem;
+    
  }
 
 .image {
+
    max-width: 50vh;
    max-height: 50vh;
 }
@@ -105,21 +108,22 @@
    flex-wrap: wrap;
    justify-content: center;
    align-items: flex-start;
+   align-self: center;
    gap: 15vh;
-   padding: 10vh 5vh 30vh;
+   padding: 15vh 4vh;
 }
 
 .details_column {
    display: flex;
    flex-direction: column;
    justify-content: center;
-   padding: 5vh;
+   
 }
 
 .details_logo {
    position: relative;
-   width: 40vh;
-   height: 40vh;
+   width: 45vh;
+   height: 45vh;
    border-radius: 50%;
    background-position: center;
    background-size: cover;
@@ -128,20 +132,17 @@
    z-index: 1;
 }
 
-.details_logo:hover {
-   background: black;
-}
 
 .image_about {
-   background-image: url(./images/coverdark.png); 
+   background-image: url(./images/shar2.JPG); 
 }
 
 .image_win {
-   background-image: url(./images/coverdark.png);
+   background-image: url(./images/shar3.JPG);
 }
 
 .image_lb {
-   background-image: url(./images/coverdark.png);
+   background-image: url(./images/shar4.JPG);
 }
 
 
@@ -158,29 +159,28 @@
 }
 
 .details_text {
-   
-   
    flex-basis: 500px;
    flex-grow: 1;
    font-family: Inter, sans-serif;
    font-weight: normal;
-   font-size: 2.5vh;
+   font-size: 2.3vh;
    line-height: 1.2;
-   min-height: 50vh;
+   min-height: 60vh;
    color: black;
+   max-width: 120vh;
 }
 
 .button_more {
-   background-image: url(./images/coverdark.png);
+   
    background-position: center;
    background-size: cover;
    background-repeat: no-repeat;
    background-attachment: fixed;
    border-radius: 2vh;
-   height: 6vh;
+   height: 10vh;
    font-family: Lit, serif;
    color: white;
-   font-size: 2vh;
+   font-size: 3vh;
    font-weight: bold;
    line-height: normal;
    border: 1px solid #FFF;
