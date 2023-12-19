@@ -1,3 +1,4 @@
+
 .cover {
     background-image: url(./images/shar4.JPG);
     height: 100vh;
@@ -7,25 +8,144 @@
     background-color: rgba(0, 0, 0, 0.2);
  }
  
- .cover__title {
-    padding-top: 30vh;
-    text-align: center;
-    color: #fff;
-    font-size: 5vw;
-    font-family: Lit, sans-serif;
-    font-weight: bold;
-    text-transform: uppercase;
-    z-index: 1;
-    
- }
 
- .cover_2 {
+
+
+
+.overlay {
+   background-color: rgba(0, 0, 0, 0.2);
+}
+
+.info__card-list {
+   gap:0;
+}
+
+.info__card-list-item {
+   flex-basis: 500px;
+   flex-grow: 1;
+}
+
+.info__card-list-item_left {
+  max-width: 450px;
+  
+}
+
+.card {
+   padding: 4vw;
+}
+
+
+ .card__title {
    
-    width: 100vw;
+   font-size: 4vh;
+   color: black;
+   font-weight: bold;
+}
+
+
+.portrait {
+   padding: 4vw;
+}
+
+
+
+
+.lots {
+   padding: 10vw 9vw 4vw 12vw;
+}
+
+
+.lots_title {
+   text-align: center;
+   padding-bottom: 10vw;
+   font-family: CMU;
+   font-style: bold;
+   font-size: 4vh;
+   text-transform: uppercase;
+}
+
+.lots__card-list {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 2em;
+   list-style-type: none;
+   
+}
+
+.lots__card-list-item {
+   flex-basis: 300px;
+   flex-grow: 1;
+   min-height: 300px;
+}
+
+.lots_card-link {
+   display: block;
+   text-decoration: none;
+   height: 50vh;
+}
+
+.lots_card {
+   display: flex;
+   flex-direction: column;
+   align-items: start;
+   justify-content: space-between;
+   padding: 50px 40px;
+   height: 50vh;
+   position: relative;
+   font-family: CMU;
+   background-image: url(./images/shar4.JPG);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-attachment: fixed;
+   z-index: 1;
+}
+
+.lots_card:hover {
+   background-color: black;
+   background-image: none;
+   border-bottom: 10px;
  }
 
 
- .info__card-list {
-    gap: 0;
+.lots_card__title {
+   color: #FFF;
+   font-size: 3vh;
+   font-weight: bold;
+   line-height: 1.2;
+   text-transform: uppercase;
+   text-underline-offset: 0.2rem;
+   
+}
 
- }
+.lots_card__text {
+   position: relative;
+   color: #FFF;
+   font-size: 3vh;
+   font-style: normal;
+   font-weight: normal;
+   line-height: 1.2;
+   
+}
+
+.card_type_film {
+   background-image: url(./images/shar4.JPG);
+   background-attachment: fixed;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+
+.card_type_book {
+   background-image: url(../images/card-lot-02.jpg);
+}
+
+.card_type_picture {
+   background-image: url(../images/card-lot-03.jpg);
+}
+
+
+
+.overlay .lots{
+   background-color: rgba(0, 0, 0, 0.8);
+}

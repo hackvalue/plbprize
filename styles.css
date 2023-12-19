@@ -67,8 +67,8 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    font-family: Inter, sans-serif;
-    font-weight: 700;
+    font-family: CMU, sans-serif;
+    font-weight: normal;
  }
  
  .card__title {
@@ -83,23 +83,20 @@
  
  .card__text {
     position: relative;
-    font-size: 2.3vh;
+    font-size: 2.5vh;
     font-style: normal;
     font-weight: 400;
-    color: black;
-    
+    color: black;    
  }
  
  .info__look-more-link {
-    font-size: 2.3vh;
-    font-weight: 400;
     text-decoration: underline 1px;
     text-underline-offset: 0.3rem;
+    line-height: 0.3;
     
  }
 
 .image {
-
    max-width: 50vh;
    max-height: 50vh;
 }
@@ -114,6 +111,7 @@
    align-self: center;
    gap: 15vh;
    padding: 15vh 4vh;
+  
 }
 
 .details_column {
@@ -136,23 +134,12 @@
 }
 
 
-.image_about {
-   background-image: url(./images/shar2.JPG); 
-}
-
-.image_win {
-   background-image: url(./images/shar3.JPG);
-}
-
-.image_lb {
-   background-image: url(./images/shar4.JPG);
-}
 
 
 .details_title {
    align-self: center;
    position: absolute;
-   font-family: Lit, serif;
+   font-family: CMU, serif;
    font-weight: bold;
    font-size: 3vh;
    color: white;
@@ -164,21 +151,17 @@
 .details_text {
    flex-basis: 500px;
    flex-grow: 1;
-   font-family: Inter, sans-serif;
+   font-family: CMU, sans-serif;
    font-weight: normal;
-   font-size: 2.3vh;
+   font-size: 2.5vh;
    line-height: 1.2;
    min-height: 60vh;
    color: black;
    max-width: 120vh;
+   line-height: 1.4;
 }
 
 .button_more {
-   
-   background-position: center;
-   background-size: cover;
-   background-repeat: no-repeat;
-   background-attachment: fixed;
    border-radius: 2vh;
    height: 10vh;
    font-family: Lit, serif;
@@ -190,9 +173,26 @@
    text-transform: uppercase;
    padding: 12px 32px;
    align-self: center;
-   width: 100%;
+   width: 20vw;
 }
 
 .button_more:hover {
    background: black;
+}
+
+
+
+
+/*DETAILS*/
+
+
+.coverend {
+   background-image: url(./images/coverout.png);
+   background-size: cover;
+    background-repeat: no-repeat;
+   background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 1;
+    height: 100vh;
 }
