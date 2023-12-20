@@ -1,10 +1,6 @@
-
-
-
 /*HEADER*/
 
 .cover {
-    
     background-image: url(./images/coverlight.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -28,7 +24,7 @@
     padding-top: 30vh;
     text-align: center;
     color: #fff;
-    font-size: 5vw;
+    font-size: 3em;
     font-family: Lit, sans-serif;
     font-weight: bold;
     text-transform: uppercase;
@@ -93,6 +89,7 @@
     text-decoration: underline 1px;
     text-underline-offset: 0.3rem;
     line-height: 0.3;
+    font-weight: bold;
     
  }
 
@@ -133,9 +130,6 @@
    z-index: 1;
 }
 
-
-
-
 .details_title {
    align-self: center;
    position: absolute;
@@ -151,7 +145,7 @@
 .details_text {
    flex-basis: 500px;
    flex-grow: 1;
-   font-family: CMU, sans-serif;
+   font-family: CMU, serif;
    font-weight: normal;
    font-size: 2.5vh;
    line-height: 1.2;
@@ -180,11 +174,7 @@
    background: black;
 }
 
-
-
-
 /*DETAILS*/
-
 
 .coverend {
    background-image: url(./images/coverout.png);

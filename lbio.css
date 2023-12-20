@@ -7,17 +7,9 @@
  .overlay {
     background-color: rgba(0, 0, 0, 0.2);
  }
- 
-
-
-
-
-.overlay {
-   background-color: rgba(0, 0, 0, 0.2);
-}
 
 .info__card-list {
-   gap:0;
+   gap: 0;
 }
 
 .info__card-list-item {
@@ -26,7 +18,7 @@
 }
 
 .info__card-list-item_left {
-  max-width: 450px;
+  max-width: 400px;
   
 }
 
@@ -34,30 +26,28 @@
    padding: 4vw;
 }
 
-
  .card__title {
-   
    font-size: 4vh;
    color: black;
    font-weight: bold;
 }
 
+.card__text {
+   font-size: 3vh;
+   
+}
 
 .portrait {
-   padding: 4vw;
+   padding: 4vh;
 }
-
-
-
 
 .lots {
-   padding: 10vw 9vw 4vw 12vw;
+   padding-bottom: 10vh;
 }
-
 
 .lots_title {
    text-align: center;
-   padding-bottom: 10vw;
+   padding: 5vh 0;
    font-family: CMU;
    font-style: bold;
    font-size: 4vh;
@@ -65,17 +55,18 @@
 }
 
 .lots__card-list {
+   padding: 0 4vh;
+
    display: flex;
    flex-wrap: wrap;
    gap: 2em;
    list-style-type: none;
-   
 }
 
 .lots__card-list-item {
-   flex-basis: 300px;
+   flex-basis: 400px;
    flex-grow: 1;
-   min-height: 300px;
+
 }
 
 .lots_card-link {
@@ -114,8 +105,7 @@
    font-weight: bold;
    line-height: 1.2;
    text-transform: uppercase;
-   text-underline-offset: 0.2rem;
-   
+   border-bottom: solid 2px;
 }
 
 .lots_card__text {
@@ -125,27 +115,13 @@
    font-style: normal;
    font-weight: normal;
    line-height: 1.2;
-   
 }
 
-.card_type_film {
-   background-image: url(./images/shar4.JPG);
-   background-attachment: fixed;
-   background-size: cover;
-   background-repeat: no-repeat;
+.overlaylots{
+   position: absolute;
+   inset: 0;
    background-position: center;
-}
-
-.card_type_book {
-   background-image: url(../images/card-lot-02.jpg);
-}
-
-.card_type_picture {
-   background-image: url(../images/card-lot-03.jpg);
-}
-
-
-
-.overlay .lots{
-   background-color: rgba(0, 0, 0, 0.8);
+   background-size: cover;
+   z-index: -1;  
+   background-color: rgba(0, 0, 0, 0.4);
 }
