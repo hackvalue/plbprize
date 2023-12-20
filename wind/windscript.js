@@ -113,10 +113,10 @@ let phrases = [
     smoothly(phrase, 'textContent', randomElement.text);
     smoothly(image, 'src', randomElement.image);  
   
-  if (randomElement.text.length > 160) {
-    advice.style.fontSize = '18px';
+  if (randomElement.text.length > 100) {
+    advice.style.fontSize = '1vw';
   } else {
-    advice.style.fontSize = '20px';
+    advice.style.fontSize = '2vw';
   }
 });
 
