@@ -38,7 +38,7 @@
 }
 
 .portrait {
-   padding: 4vh;
+   padding: 4vh 0 10vh;
 }
 
 .lots {
@@ -55,8 +55,7 @@
 }
 
 .lots__card-list {
-   padding: 0 4vh;
-
+   padding: 0 4vh 10vh;
    display: flex;
    flex-wrap: wrap;
    gap: 2em;
@@ -64,7 +63,7 @@
 }
 
 .lots__card-list-item {
-   flex-basis: 400px;
+   flex-basis: 300px;
    flex-grow: 1;
 
 }
@@ -84,13 +83,27 @@
    height: 50vh;
    position: relative;
    font-family: CMU;
-   background-image: url(./images/shar4.JPG);
    background-size: cover;
-   background-repeat: no-repeat;
    background-position: center;
-   background-attachment: fixed;
    z-index: 1;
 }
+
+.one {
+   background-image: url(./images/№25.jpg);
+}
+
+.two {
+   background-image: url(./images/2circles.JPG);
+}
+
+.three {
+   background-image: url(./images/№7.jpg);
+}
+
+.four {
+   background-image: url(./images/ris.6.jpg);
+}
+
 
 .lots_card:hover {
    background-color: black;
@@ -125,3 +138,4 @@
    z-index: -1;  
    background-color: rgba(0, 0, 0, 0.4);
 }
+

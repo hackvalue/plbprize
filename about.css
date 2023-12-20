@@ -11,7 +11,7 @@
     padding-top: 30vh;
     text-align: center;
     color: #fff;
-    font-size: 5vw;
+    font-size: 7vh;
     font-family: Lit, sans-serif;
     font-weight: bold;
     text-transform: uppercase;
@@ -19,7 +19,6 @@
     
  }
 
- .cover_2 {
-   
-    width: 100vw;
- }
+.info {
+   padding-bottom: 10vh;
+}
