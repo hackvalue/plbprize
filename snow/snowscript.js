@@ -29,9 +29,9 @@ let phrases = [
     smoothly(image, 'src', randomElement.image);  
   
   if (randomElement.text.length > 160) {
-    advice.style.fontSize = '20px';
+    advice.style.fontSize = '18px';
   } else {
-    advice.style.fontSize = '25px';
+    advice.style.fontSize = '20px';
   }
 });
 
