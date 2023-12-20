@@ -60,11 +60,11 @@ body {
   .image {
     width: 50%;
     display: block;
-    margin: 20px auto;
+    margin: 20px auto 30px;
   }
   
   .advice {
-    font-size: 1vw;
+    font-size: 2vw;
     line-height: 1;
     margin-bottom: 70px;
     text-align: left;

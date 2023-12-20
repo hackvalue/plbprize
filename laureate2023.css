@@ -44,7 +44,17 @@ a {
  }
 
 .image {
-
    max-width: 50vh;
    max-height: 50vh;
+}
+
+
+.quotes {
+   font-family: CMU, serif;
+   font-size: 3vh;
+   font-style: normal;
+   display: block;
+   align-self: center;
+   padding: 0 4vw
+
 }

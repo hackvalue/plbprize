@@ -114,7 +114,7 @@ let phrases = [
     smoothly(image, 'src', randomElement.image);  
   
   if (randomElement.text.length > 100) {
-    advice.style.fontSize = '1vw';
+    advice.style.fontSize = '1.5vw';
   } else {
     advice.style.fontSize = '2vw';
   }
