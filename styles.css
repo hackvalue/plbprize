@@ -5,7 +5,6 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-
     position: relative;
     z-index: 1;
     height: 100vh;
@@ -21,7 +20,7 @@
  }
 
  .cover__title {
-    padding-top: 30vh;
+    padding-top: 35vh;
     text-align: center;
     color: #fff;
     font-size: 7vh;

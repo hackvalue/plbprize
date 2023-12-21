@@ -7,17 +7,6 @@
     background-color: rgba(0, 0, 0, 0.2);
  }
  
- .cover__title {
-    padding-top: 30vh;
-    text-align: center;
-    color: #fff;
-    font-size: 7vh;
-    font-family: Lit, sans-serif;
-    font-weight: bold;
-    text-transform: uppercase;
-    z-index: 1;
-    
- }
 
 .info {
    padding-bottom: 10vh;
