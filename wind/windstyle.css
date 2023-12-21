@@ -1,14 +1,5 @@
-@font-face {
-  font-family: 'Verdana';
-  font-weight: normal;
-  }
-  
-@font-face {
-  font-family: 'Verdana';
-  font-weight: bold;
-  }
-  
-  
+
+
 html {
   height: 100%;
   margin: 0;
@@ -22,15 +13,18 @@ body {
   max-width: 540px;
   min-height: 100%;
   margin: 0 auto;
-  font-family: 'Verdana';
+  font-family: CMU;
   box-sizing: border-box;
   padding: 36px;
+  
   }
   
   .header {
     display: flex;
     align-items: baseline;
     justify-content: space-between;
+    font-family: Lit;
+    font-style: bold;
   }
   
   .logo {
@@ -64,11 +58,11 @@ body {
   }
   
   .advice {
-    font-size: 2vw;
+    font-size: 1.4vw;
     line-height: 1;
     margin-bottom: 70px;
     text-align: left;
-    letter-spacing: -1px;
+    letter-spacing: 0.01  em;
   }
 
   

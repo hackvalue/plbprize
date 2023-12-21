@@ -56,5 +56,8 @@ a {
    display: block;
    align-self: center;
    padding: 0 4vw
+}
 
+.quote {
+   text-align: center;
 }
