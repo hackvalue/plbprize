@@ -3,7 +3,7 @@
     background-image: url(./images/shar4.JPG);
     height: 100vh;
  }
- 
+
  .overlay {
     background-color: rgba(0, 0, 0, 0.2);
  }
@@ -19,7 +19,7 @@
 
 .info__card-list-item_left {
   max-width: 400px;
-  
+
 }
 
 .card {
@@ -28,13 +28,15 @@
 
  .card__title {
    font-size: 3.3vh;
+   font-family: Lit;
    color: black;
    font-weight: bold;
 }
 
 .card__text {
+   font-family: CMU;
    font-size: 3vh;
-   
+
 }
 
 .portrait {
@@ -48,7 +50,7 @@
 .lots_title {
    text-align: center;
    padding: 5vh 0;
-   font-family: CMU;
+   font-family: Lit;
    font-style: bold;
    font-size: 4vh;
    text-transform: uppercase;
@@ -89,19 +91,19 @@
 }
 
 .one {
-   background-image: url(./images/№25.jpg);
+   background-image: url(./images/25.jpg);
 }
 
 .two {
-   background-image: url(./images/2circles.JPG);
+   background-image: url(./images/2circles.jpg);
 }
 
 .three {
-   background-image: url(./images/№7.jpg);
+   background-image: url(./images/7.jpg);
 }
 
 .four {
-   background-image: url(./images/ris.6.jpg);
+   background-image: url(./images/ris6.jpg);
 }
 
 
@@ -113,6 +115,7 @@
 
 
 .lots_card__title {
+   font-family: Lit;
    color: #FFF;
    font-size: 3vh;
    font-weight: bold;
@@ -122,6 +125,7 @@
 }
 
 .lots_card__text {
+   font-family: CMU;
    position: relative;
    color: #FFF;
    font-size: 3vh;
@@ -135,7 +139,6 @@
    inset: 0;
    background-position: center;
    background-size: cover;
-   z-index: -1;  
+   z-index: -1;
    background-color: rgba(0, 0, 0, 0.4);
 }
-

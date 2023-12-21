@@ -8,9 +8,9 @@
 
     position: relative;
     z-index: 1;
-    height: 100vh;    
+    height: 100vh;
  }
- 
+
  .overlay {
     position: absolute;
     inset: 0;
@@ -19,17 +19,17 @@
     background-color: rgba(0, 0, 0, 0.4);
     z-index: -1;
  }
- 
+
  .cover__title {
     padding-top: 30vh;
     text-align: center;
     color: #fff;
     font-size: 2.5em;
-    font-family: Lit, sans-serif;
+    font-family: Lit, serif;
     font-weight: bold;
     text-transform: uppercase;
     z-index: 1;
-    
+    letter-spacing: 0.025em;
  }
 
 /*INFO*/
@@ -40,14 +40,14 @@
    align-items: center;
    padding-bottom: 4vh;
  }
-  
+
  .info__card-list {
    display: flex;
    flex-wrap: wrap;
    list-style-type: none;
    gap: 10vh;
  }
- 
+
  .info__card-list-item {
     flex-basis: 300px;
     flex-grow: 1;
@@ -66,31 +66,48 @@
     font-family: CMU, sans-serif;
     font-weight: normal;
  }
- 
+
  .card__title {
+    font-family: Lit, serif;
     color: #FFF;
-    font-size: 4vh;
+    font-size: 3.3vh;
     color: black;
     font-style: bold;
     text-transform: uppercase;
     text-decoration: none;
     text-underline-offset: 0.2rem;
+    letter-spacing: 0.01em;
  }
- 
+
  .card__text {
     position: relative;
+    font-family: CMU, serif;
     font-size: 3vh;
     font-style: normal;
     font-weight: 400;
-    color: black;    
+    color: black;
  }
- 
+
+ .card__text_link {
+    position: relative;
+    font-family: CMU, serif;
+    font-size: 2.8vh;
+    font-style: normal;
+    font-weight: 400;
+    color: black;
+ }
+
  .info__look-more-link {
     text-decoration: underline 1px;
     text-underline-offset: 0.3rem;
     line-height: 0.3;
     font-weight: bold;
-    
+
+ }
+
+ .details_title__look-more-link {
+    text-decoration: none;
+
  }
 
 .image {
@@ -108,14 +125,14 @@
    align-self: center;
    gap: 10vh;
    padding: 15vh 4vh;
-  
+
 }
 
 .details_column {
    display: flex;
    flex-direction: column;
    justify-content: center;
-   
+
 }
 
 .details_logo {
@@ -133,13 +150,14 @@
 .details_title {
    align-self: center;
    position: absolute;
-   font-family: CMU, serif;
+   font-family: Lit, serif;
    font-weight: bold;
    font-size: 3.3vh;
    color: white;
    text-transform: uppercase;
    text-align: center;
-   z-index: 1; 
+   z-index: 1;
+   letter-spacing: 0.05em;
 }
 
 .details_text {
@@ -153,6 +171,21 @@
    color: black;
    max-width: 120vh;
    line-height: 1.4;
+}
+
+
+
+
+.end_text {
+   color: white;
+   font-family: Lit, serif;
+   font-size: 3vh;
+   width: 100%;
+   text-align: center;
+   position: absolute;
+   bottom: 1px;
+   font-weight: bold;
+
 }
 
 .button_more {
@@ -185,4 +218,17 @@
     position: relative;
     z-index: 1;
     height: 100vh;
+}
+
+.letter {
+
+	font-family: 'Lit';
+	color: rgb(0, 0, 0);
+	font-size: 70px;
+	line-height: 60px;
+	vertical-align: top;
+	display: inline-block;
+	float: left;
+	margin: 0 10px 0 0;
+
 }
