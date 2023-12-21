@@ -24,7 +24,7 @@
     padding-top: 30vh;
     text-align: center;
     color: #fff;
-    font-size: 2.5em;
+    font-size: 7vh;
     font-family: Lit, serif;
     font-weight: bold;
     text-transform: uppercase;
@@ -183,7 +183,7 @@
    width: 100%;
    text-align: center;
    position: absolute;
-   bottom: 1px;
+   bottom: 30px;
    font-weight: normal;
 
 }
@@ -210,21 +210,20 @@
 /*DETAILS*/
 
 .coverend {
-   background-image: url(./images/coverout.png);
-   background-size: cover;
-    background-repeat: no-repeat;
-   background-position: center;
-
-    position: relative;
-    z-index: 1;
-    height: 100vh;
+  background-image: url(./images/coverout.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  z-index: 1;
+  height: 100vh;
 }
 
 .letter {
 
 	font-family: 'Lit';
 	color: rgb(0, 0, 0);
-	font-size: 70px;
+	font-size: 60px;
 	line-height: 60px;
 	vertical-align: top;
 	display: inline-block;

@@ -12,10 +12,17 @@
    gap: 0;
 }
 
+.cover__title {
+   font-size: 7vh;
+}
+
+
+
 .info__card-list-item {
    flex-basis: 500px;
    flex-grow: 1;
 }
+
 
 .info__card-list-item_left {
   max-width: 400px;
