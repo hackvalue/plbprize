@@ -5,6 +5,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+
     position: relative;
     z-index: 1;
     height: 100vh;
@@ -20,7 +21,7 @@
  }
 
  .cover__title {
-    padding-top: 35vh;
+    padding-top: 30vh;
     text-align: center;
     color: #fff;
     font-size: 7vh;
@@ -206,7 +207,7 @@
    background: black;
 }
 
-/*DETAILS*/
+
 
 .coverend {
   background-image: url(./images/coverout.png);
@@ -228,5 +229,6 @@
 	display: inline-block;
 	float: left;
 	margin: 0 10px 0 0;
-
 }
+
+

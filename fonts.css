@@ -53,3 +53,11 @@
   font-style: italic;
   font-display: swap;
 }
+
+@font-face {
+  font-family: CMU;
+  src: url(./fonts/cmunbl.ttf) format('truetype');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}

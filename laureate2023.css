@@ -7,11 +7,11 @@ a {
     background-image: url(./images/shar3.JPG);
     height: 100vh;
  }
- 
+
  .overlay {
     background-color: rgba(0, 0, 0, 0.2);
  }
- 
+
  .info__card-list {
    gap: 5vh;
 }
@@ -27,20 +27,21 @@ a {
  .card {
     padding: 4vw;
  }
- 
+
 
  .card__text {
    font-family: CMU, serif;
     font-size: 3vh;
-    font-style: normal;    
+    font-style: normal;
  }
- 
+
+
  .info__look-more-link {
     font-size: 3vh;
     font-weight: 400;
     text-decoration: underline 1px;
     text-underline-offset: 0.3rem;
-    
+
  }
 
 .image {
@@ -49,15 +50,27 @@ a {
 }
 
 
+
+.quotes__list {
+   display: flex;
+   
+}
+
+
+
+
 .quotes {
    font-family: CMU, serif;
    font-size: 3vh;
    font-style: normal;
    display: block;
    align-self: center;
-   padding: 0 4vw
+   padding: 0 4vw;
+   width: 60%;
+   margin-left: auto;
+   margin-right: auto;
 }
 
 .quote {
-   text-align: center;
+   text-align: justify;
 }
